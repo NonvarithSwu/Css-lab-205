@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัวตัวนิสิต</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="site-header">
+        <div class="header-text">
+            <h1>เว็บเพจแนะนำตัวนิสิต</h1>
+            <p>เว็บเพจนี้จัดทำเพื่อการแนะนำข้อมูลส่วนตัวเพื่อการศึกษา</p>
+        </div>
+
+        <nav class="main-nav">
+            <a href="#profile" class="nav-btn">แนะนำข้อมูลส่วนตัว</a>
+            <a href="#skills" class="nav-btn">ความสนใจและทักษะ</a>
+            <a href="#contact" class="nav-btn">ช่องทางการติดต่อ</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+        <div class="profile-card">
+        <section id="profile">
+            <h2>แนะนำข้อมูลส่วนตัว</h2>
+            <p>สวัสดีครับผมชื่อ<strong>นายนนท์วริศ ฐิติบุญญาภิรมย์</strong>
+                อายุ 18 ปี ตอนนี้กำลังศึกษาอยู่ที่มหาวิทยาลัยศรีนครินทรวิโรฒ
+                คณะวิทยาศาสตร์ สาขาคอมพิวเตอร์ 
+                ในระดับชั้นมัธยมศึกษาเคยศึกษาอยู่ที่โรงเรียนชลประทานวิทยา อำเภอปากเกร็ด จังหวัดนนทบุรี
+            </p>
+
+            <img src="image/มศวบัตรนิสิต.JPG" alt="MySelf" width="120" height="120">
+
+        </section>
+
+        <section id="skills">
+            <h2>ความสนใจและทักษะ</h2>
+
+            <h3>ความสนใจ</h3>
+            <ul>
+                <li><em>สนใจด้านคอมพิวเตอร์และการโค้ด</em></li>
+                <li><em>ชื่นชอบในการติดตามข่าวสารเทคโนโลยีใหม่ๆ</em></li>
+                <li><em>สนใจในการเรียนรู้สิ่งใหม่ๆอย่างเสมอ</em></li>
+            </ul>
+
+            <h3>ทักษะ</h3>
+            <div class="skill-list">
+            <ul>
+                <li><em>มีความเข้าใจในการ coding เบื้องต้น</em></li>
+                <li><em>ชื่นชอบในการอ่านอย่างมาก</em></li>
+                <li><em>ชื่นชอบศึกษาหาความรู้เพื่อพัฒนาตนเอง</em></li>
+            </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>ช่องทางการติดต่อ</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Application</th>
+                        <th>Contact</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Phone</td>
+                        <td><a href="tel:0813401800">081-340-1800</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td><a href="mailto:nonvarith@email.com">nonvarith@email.com</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+                <h3>แบบฟอร์มติดต่อ</h3>
+                <form>
+                    <label for = "name">ชื่อ-นามสกุล</label><br>
+                    <input type = "text" id = "name" name = "name"><br>
+
+                    <label for = "email">อีเมล</label><br>
+                    <input type = "email" id = "email" name = "email"><br>
+
+                    <label for = "topic">หัวข้อที่ต้องการติดต่อ</label><br>
+                    <select id="topic" name="topic">
+                        <option value ="">select</option>
+                        <option value ="general">สอบถามเรื่องทั่วไป</option>
+                        <option value ="work">สอบถามเรื่องงาน</option>
+                        <option value ="else">อื่นๆ</option>
+                    </select><br><br>
+
+                    <label for="message">ข้อความ</label><br>
+                    <textarea id="message" name="message" rows ="4"></textarea><br><br>
+
+                    <button type='submit'>ส่งข้อความ</button><br>
+
+                </form>
+        </section>
+        </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>ผู้จัดทำ: นายนนท์วริศ ฐิติบุญญาภิรมย์</p>
+        <p>
+            <a href="mailto:nonvarith@gmail.com">nonvarith@gmail.com</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
